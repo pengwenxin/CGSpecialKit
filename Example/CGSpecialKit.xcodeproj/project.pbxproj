@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030996ED32747EDA2DF62D31 /* CGSpecialKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CGSpecialKit.podspec; path = ../CGSpecialKit.podspec; sourceTree = "<group>"; };
+		030996ED32747EDA2DF62D31 /* CGSpecialKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CGSpecialKit.podspec; path = ../CGSpecialKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0C863BF8774A15D5BBC71BBF /* Pods_CGSpecialKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGSpecialKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A95491DD6B6B8FE294CE21 /* Pods_CGSpecialKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGSpecialKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		120665F758F549F7E9546F7F /* Pods-CGSpecialKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGSpecialKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGSpecialKit_Tests/Pods-CGSpecialKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,9 +63,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98E313A564ACE3A467EBF476 /* Pods-CGSpecialKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGSpecialKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGSpecialKit_Example/Pods-CGSpecialKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A24C83B68E3BE75CC0E38710 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A24C83B68E3BE75CC0E38710 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CD074A73B786301E2D586A12 /* Pods-CGSpecialKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGSpecialKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGSpecialKit_Example/Pods-CGSpecialKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D62EA3CF74A46B43176A4314 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D62EA3CF74A46B43176A4314 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FFD17B41AE01AD9CEA338FC5 /* Pods-CGSpecialKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGSpecialKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGSpecialKit_Tests/Pods-CGSpecialKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -337,11 +337,41 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CGSpecialKit_Example/Pods-CGSpecialKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CGAuthorKit_Category/CGAuthorKit_Category.framework",
+				"${BUILT_PRODUCTS_DIR}/CGCategoryKit/CGCategoryKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CGConfigsKit/CGConfigsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CGMainViewKit/CGMainViewKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CGReformerKeysKit/CGReformerKeysKit.framework",
 				"${BUILT_PRODUCTS_DIR}/CGSpecialKit/CGSpecialKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CGToolsKit/CGToolsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/TTAPIsKit/TTAPIsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGAuthorKit_Category.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGCategoryKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGConfigsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGMainViewKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGReformerKeysKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGSpecialKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGToolsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTAPIsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

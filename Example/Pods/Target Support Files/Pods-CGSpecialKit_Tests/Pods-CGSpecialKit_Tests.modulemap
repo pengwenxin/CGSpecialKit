@@ -1,0 +1,6 @@
+framework module Pods_CGSpecialKit_Tests {
+  umbrella header "Pods-CGSpecialKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

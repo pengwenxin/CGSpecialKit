@@ -1,0 +1,6 @@
+framework module TTAPIsKit {
+  umbrella header "TTAPIsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

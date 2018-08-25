@@ -1,0 +1,51 @@
+{
+  "name": "CGSpecialKit",
+  "version": "3",
+  "summary": "A short description of CGSpecialKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pengwenxin/CGSpecialKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pengwenxin": "980120476@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/pengwenxin/CGSpecialKit.git",
+    "tag": "3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CGSpecialKit/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "YYWebImage": [
+
+    ],
+    "CGCategoryKit": [
+
+    ],
+    "TTAPIsKit": [
+
+    ],
+    "CGReformerKeysKit": [
+
+    ],
+    "CGToolsKit": [
+
+    ],
+    "CGConfigsKit": [
+
+    ],
+    "CGMainViewKit": [
+
+    ],
+    "CGAuthorKit_Category": [
+
+    ]
+  }
+}

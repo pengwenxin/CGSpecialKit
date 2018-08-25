@@ -1,0 +1,100 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CGAuthorKit_Category (4):
+    - CTMediator
+    - TTAPIsKit
+  - CGCategoryKit (0.1.0)
+  - CGConfigsKit (1)
+  - CGMainViewKit (1)
+  - CGReformerKeysKit (1)
+  - CGSpecialKit (3):
+    - CGAuthorKit_Category
+    - CGCategoryKit
+    - CGConfigsKit
+    - CGMainViewKit
+    - CGReformerKeysKit
+    - CGToolsKit
+    - Masonry
+    - TTAPIsKit
+    - YYWebImage
+  - CGToolsKit (1):
+    - FMDB
+    - MBProgressHUD
+  - CTMediator (25)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - TTAPIsKit (1):
+    - AFNetworking
+    - CGToolsKit
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - CGSpecialKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CTMediator
+    - FMDB
+    - Masonry
+    - MBProgressHUD
+    - YYCache
+    - YYImage
+    - YYWebImage
+  https://github.com/pengwenxin/CGSpecs.git:
+    - CGAuthorKit_Category
+    - CGCategoryKit
+    - CGConfigsKit
+    - CGMainViewKit
+    - CGReformerKeysKit
+    - CGToolsKit
+    - TTAPIsKit
+
+EXTERNAL SOURCES:
+  CGSpecialKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CGAuthorKit_Category: 85ea9606e8baaa372d9658459b271f50c894f997
+  CGCategoryKit: 1210a2691500f8885703ad32961ac12b8b6447a0
+  CGConfigsKit: 17309d6d46f1ede32f75028a2097bd279beaa0a5
+  CGMainViewKit: 619d0fea8f67a380bcb52b94564d72e4847d7a73
+  CGReformerKeysKit: d05c0cae55c459425416d8d1eb3f437b41461e2c
+  CGSpecialKit: 79616335b72e7d12d9b624b6d95baa1dc4e9c3dd
+  CGToolsKit: 73d64bb4fb1d01c76a795d5d82e9f3f4991540b1
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  TTAPIsKit: ba481e4c244aff781eb76448a82b4c6caf547794
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 7782529cdd39eec9eebe50fbae62a4a1073ab24a
+
+COCOAPODS: 1.5.3
